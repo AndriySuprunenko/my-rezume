@@ -12,8 +12,8 @@ function App() {
           <h1 className="about_me_name">Andrii Suprunenko</h1>
 
           <p className="about_me_description">
-            Hello. My name is Andrii. I am 22 years old. In my spare time I
-            study history, Ukrainian and English languages, draw portraits, love
+            Hi. I'm looking for job as Front-end developer. In my spare
+            time I study history, English languages, draw portraits, love
             science and technology. I want to join your team and grow with you.
             Ready to learn a lot and work to achieve common goals.
           </p>
@@ -25,17 +25,17 @@ function App() {
             <li className="projects-item">
               <a
                 className="projects-link"
-                href="https://final-project-beetroot.herokuapp.com"
+                href="https://dapper-heliotrope-2d183b.netlify.app/"
               >
-                https://final-project-beetroot.herokuapp.com
+                https://dapper-heliotrope-2d183b.netlify.app
               </a>
             </li>
             <li className="projects-item">
               <a
                 className="projects-link"
-                href="https://app-module-beetroot.herokuapp.com"
+                href="https://mellifluous-salmiakki-b87625.netlify.app/"
               >
-                https://app-module-beetroot.herokuapp.com
+                https://mellifluous-salmiakki-b87625.netlify.app
               </a>
             </li>
           </ol>
@@ -98,12 +98,28 @@ function App() {
             </div>
           </div>
           {/* University */}
+          {/* The teacher */}
+          <div className="education_block">
+            <h4 className="education_nuor">
+              Ostrogradsky Kremenchutsk National University
+            </h4>
+            <h5 className="education_management">
+              Pedagogical and educational sciences
+            </h5>
+            <p className="education_period">September 2021 - December 2022</p>
+          </div>
+          {/* KI */}
           <div className="education_block">
             <h4 className="education_nuor">
               Ostrogradsky Kremenchutsk National University
             </h4>
             <h5 className="education_management">Computer engineering</h5>
             <p className="education_period">September 2017 - June 2021</p>
+          </div>
+          <div className="education_block">
+            <h4 className="education_nuor">Languages</h4>
+            <h5 className="education_management">English - B1</h5>
+            <h5 className="education_management">Українська - native</h5>
           </div>
         </div>
       </div>
